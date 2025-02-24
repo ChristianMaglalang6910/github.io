@@ -1,0 +1,80 @@
+h1, h2, h3 {
+    font-family: "Arial Black", sans-serif;
+}
+
+.change-bg-color {
+    background-color: #C1CFA1;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin: auto;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.next {
+    right: 0;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.sticky {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav a.active {
+    background-color: #E7CCCC;
+    border-radius: 15px;
+}
+
+#gallery-container img {
+    width: 350px;
+    height: 250px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox img {
+    min-width: 500px;
+    min-height: 500px;
+    max-width: 100%;
+    max-height: 100%;
+}

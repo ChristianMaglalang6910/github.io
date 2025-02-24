@@ -1,0 +1,16 @@
+{
+  "images": [
+    {
+      "thumbnail": "images/img4.jpg",
+      "fullsize": "images/img4.jpg"
+    },
+    {
+      "thumbnail": "images/img5.jpg",
+      "fullsize": "images/img5.jpg"
+    },
+    {
+      "thumbnail": "images/img6.jpg",
+      "fullsize": "images/img6.jpg"
+    }
+  ]
+}

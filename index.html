@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home</title>
+
+
+  <!--Css Section -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="content/style.css">
+
+</head>
+<body class="change-bg-color">
+<header>
+</header>
+
+<main class="container my-5">
+  <h1 class="mb-5" id="welcomeMessage">
+    Welcome to our website!
+  </h1>
+  <div class="slideshow-container">
+    <div class="slide fade">
+      <div class="numberText">1 / 3</div>
+      <img src="images/img1.jpg" style="width:70%" alt="IMG1">
+    </div>
+    <div class="slide fade">
+      <div class="numberText">2 / 3</div>
+      <img src="images/img2.jpg" style="width:70%" alt="IMG2">
+    </div>
+    <div class="slide fade">
+      <div class="numberText">3 / 3</div>
+      <img src="images/img3.jpg" style="width:70%" alt="IMG3">
+    </div>
+    <a class="prev" onclick="prevSlide()">&#10094;</a>
+    <a class="next" onclick="nextSlide()">&#10095;</a>
+  </div>
+
+
+  <button id="getInvolvedBtn" class="btn btn-primary mt-4" type="button">Get Involved</button>
+</main> <!-- //got help making this slide show from https://www.w3schools.com/howto/howto_js_slideshow.asp and
+          https://medium.com/illumination/how-to-build-a-slideshow-using-html-css-and-javascript-977ecbdbf48c -->
+
+<footer id="footer" style="position:fixed;bottom:0;left:0;right:0; height:50px; background-color:#EDE8DC;">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="privacypolicy.html"><i class="fa-solid fa-shield-halved"></i>Privacy Policy</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="termsofservice.html"><i class="fa-solid fa-bars"></i>Terms of Service</a>
+      </li>
+    </ul>
+  </nav>
+</footer>
+
+<!--Scripting Section -->
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="scripts/main.js"></script>
+
+</body>
+</html>
